@@ -1,0 +1,39 @@
+.place-order{
+    display: flex;
+align-items: start;
+justify-content: space-between;
+gap: 90px;
+margin-top: 100px;
+}
+.place-order-left{
+    color: #af312b;
+    width: 100%;
+    max-width: max(30%, 500px);
+
+    .title{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+
+    input{
+        margin-bottom: 15px;
+        width: 100%;
+        padding: 10px;
+    border: 1px solid #f9d1cf; ;
+        border-radius: 5px;
+        outline-color: #af312b;
+    }
+
+    .multi-fields{
+        display: flex;
+        gap: 10px;
+    }
+}
+.place-order-right{
+    width: 100%;
+    max-width: max(40%, 500px);
+}
+.place-order .cart-total button{
+    margin-top: 30px;
+}
