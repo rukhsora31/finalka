@@ -10,11 +10,13 @@ import LoginPopup from './components/LoginPopup/LoginPopup'
 
 
 const App = () => {
+  const isAdmin = true
   const[showLogin, setShowLogin] = useState(false);
   return (
     <>
     {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}
       <div className="app">
+        {/* <h1>Food Delivery</h1> */}
         <Navbar setShowLogin={setShowLogin} />
 
         <Routes>

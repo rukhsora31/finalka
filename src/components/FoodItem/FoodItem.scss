@@ -58,3 +58,10 @@
 .food-item-counter img{
     width: 30px;
 }
+
+.food-item-counter{
+    display: flex;
+    gap: 30px;
+    // top: 30px;
+    margin-top: 30px;
+}
